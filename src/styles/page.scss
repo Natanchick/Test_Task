@@ -1,0 +1,20 @@
+.page{
+    a {
+        font-size: 18px;
+        color: #0323d0;
+    }
+    .task-name {
+        display: block;
+        font-size: 28px;
+        padding: 10px 0;
+        font-weight: bold;
+    }
+    span {
+        font-size: 20px;
+    }
+    input{
+        height: 30px;
+        font-size: 18px;
+        border: #0323d0 solid 2px;
+    }
+}

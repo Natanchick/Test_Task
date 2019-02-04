@@ -1,0 +1,26 @@
+.task {
+    box-shadow: 0 0 2px 2px #000000a6;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &.major {
+        background: lightsalmon;
+    }   
+
+    .name {
+        margin: 0 0 5px 0;
+        font-weight: bold;
+    }
+
+    .tags-block {
+        display: flex;
+        width: 100%;
+        span {
+            margin-left: 15px;
+        }
+    }
+}
